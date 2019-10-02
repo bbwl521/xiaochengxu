@@ -1,5 +1,13 @@
 <!--pages/home/home.wxml-->
-<text style="color:red">Hello World</text>
-<button size="mini">Hellow World</button>
-<view>知识点1</view>
-<view>哈哈哈哈哈哈</view>
+
+
+<!-- 1.小程序的数据绑定 -->
+<view>我的名称{{name}}</view>
+<view>我的年龄{{age}}</view>
+
+<!-- 2.列表展示 wx:for-->
+<view wx:for="{{students}}">{{item.name}}----{{item.age}}</view>
+
+<!-- 3.事件触发 -->
+<view>默认值{{count}}</view>
+<button bindtap="jia">加1</button>
