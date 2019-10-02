@@ -1,0 +1,12 @@
+<!--pages/enpower/enpower.wxml-->
+<text>pages/enpower/enpower.wxml</text>
+<view>授权页面</view>
+
+
+<!-- 第二中获取用户信息方法 -->
+
+<button open-type="getUserInfo" bindgetuserinfo="info">点我授权</button>
+
+
+<!-- 第三中获取用户信息方法 -->
+<open-data type="userNickName">getuserinfo</open-data>
